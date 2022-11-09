@@ -1,0 +1,80 @@
+body {
+	background: rgb(29, 29, 29);
+	color: rgb(255, 255, 255);
+	overflow: hidden;
+}
+#home{
+	
+	position: relative;
+	background: transparent;
+	z-index: 99;
+
+}
+
+#about{
+	
+	position: relative;
+	background: transparent;
+	z-index: 99;
+
+}
+#education{
+	
+	position: relative;
+	background: transparent;
+	z-index: 99;
+
+}
+#contact{
+	
+	position: relative;
+	background: transparent;
+	z-index: 99;
+
+}
+#location{
+	
+	position: relative;
+	background: transparent;
+	z-index: 99;
+
+}
+
+#canvas-club{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	
+	
+}
+
+              /* Typing Effect */ /* Typing Effect */
+
+.wrapper {
+	height: 10vh;
+	/*This part is important for centering*/
+	display: grid;
+	place-items: center;
+  }
+  
+  .typing {
+	width: 22ch;
+	animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 3px solid;
+	font-family: monospace;
+	font-size: 2em;
+  }
+  
+  @keyframes typing {
+	from {
+	  width: 0
+	}
+  }
+	  
+  @keyframes blink {
+	50% {
+	  border-color: transparent
+	}
+  }
