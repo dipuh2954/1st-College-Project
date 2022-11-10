@@ -2,7 +2,8 @@
 
 :root{
     --Yellow:	#FFFF00;
-    --mixedcolour: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    --mixedcolour: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4),chartreuse;
+
     
 }
 
@@ -291,17 +292,37 @@ div .social_media{
 /* education section ends  */
 
 /* location section starts  */
-
+.location{
+    height: inherit;
+    width: 100%;
+}
 .location .box-container {
     position:absolute;
     left: 25%;
     top: 20%;
 }
+.box-container h2 {
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.box-container h2 span{
+    color:var(--Yellow)
+}
+div .map-container {
+    border: 5px solid yellow;
+
+}
 
 /* location section ends  */
 
 /* contact section starts  */
-
+#contact{
+    padding-top: 200px;
+}
 .contact .row{
     display: flex;
     align-items: center;
